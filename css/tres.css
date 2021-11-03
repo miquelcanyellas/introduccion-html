@@ -1,0 +1,52 @@
+td{
+    align-content: center;
+    border: solid black;
+    font-size: 100px;
+    color: white;
+
+}
+td.top{
+    border-top: 0px;
+    border-bottom: 0px;
+ 
+}
+td.derecha{
+    border-right: 0px;
+}
+#derecha{
+    border-right: 0px;
+    border-left: 0px;
+}
+td.bottom{
+    border-bottom: 0px;
+}
+#bottom{
+    border-bottom: 0px;
+    border-top: 0px;
+    border-left: 0px;
+}
+td.left{
+    border-left: 0px;
+}
+#left2{
+    border-left: 0px;
+    border-top: 0px;
+    border-right: 0px;
+}
+#left1{
+    border-left: 0px;
+    border-right: 0px;
+}
+#center{
+    border-right: 0px;
+}
+#center1{
+    border-left: 0px;
+}
+#center2{
+    border-top: 0px;
+}
+
+table{
+    align-content: center;
+}
