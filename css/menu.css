@@ -1,3 +1,10 @@
+:root{
+  --main-color:#00df89;
+  --hover-color:#883765;
+  --font-color:white;
+  --active-color:#f15678;
+}
+
 *{
   margin: 0;
   padding: 0;
@@ -33,14 +40,26 @@ nav ul li{
 nav ul li a{
   display: block;
   text-align: center;
+  height: 100%;
 }
 
 nav ul li a:hover{
-  background-color: blue;
+  background-color: var(--hover-color);
+  color: var(--main-color);
   color:white;
   height: 100%;
 }
 
 .active{
-  background-color: greenyellow;
+  background-color: var(--active-color);
+}
+
+@media screen and (max-widht:411px) {
+  body{
+    
+  }
+
+  nav ul li{
+    display: list-item;
+  }
 }
